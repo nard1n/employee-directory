@@ -21,6 +21,9 @@ class App extends Component{
       <>
         <NavBar />
         <Search />
+        <EmployeeList />
+        <EmployeeCard />
+
       </>
     );
   }
