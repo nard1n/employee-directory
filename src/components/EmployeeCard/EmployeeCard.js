@@ -19,7 +19,24 @@ function EmployeeCard() {
                 <span className="card-title grey-text text-darken-4">
                     Employee Name<i className="material-icons right">close</i>
                 </span>
-                <p>Here is some more information about this employee.</p>
+                <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
+                    Employee Name<i className="material-icons right">close</i>
+                </span>
+                <div className="content">
+                    <ul>
+                        <li>
+                             <strong>Name:</strong> {/*{props.name} */}
+                        </li>
+                        <li>
+                            <strong>Occupation:</strong> {/*{props.occupation}*/}
+                        </li>
+                        <li>
+                            <strong>Address:</strong> {/*{props.location}*/}
+                        </li>
+                    </ul>
+                </div>
+            </div>
             </div>
         </div>
         </>
