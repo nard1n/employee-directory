@@ -1,7 +1,11 @@
 import React from 'react';
 
 function EmployeeList() {
-    return ("");
+    return (
+        <>
+        
+        </>
+    );
 }
 
 export default EmployeeList;
