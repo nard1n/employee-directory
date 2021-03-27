@@ -14,7 +14,6 @@ function EmployeeCard(props) {
             <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
                     {props.data.name.first} {props.data.name.last}<i className="material-icons right">close</i><br/><br/>
-                    <p>Years of experience: {props.data.registered.age}</p>
                     <p><i class="small material-icons">phone</i>  {props.data.phone}</p>
                     <p><i class="small material-icons">email</i>  {props.data.email}</p>
                 </span>
