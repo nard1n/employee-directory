@@ -5,7 +5,7 @@ function NavBar (){
         <nav>
             <div className='nav-wrapper blue darken-4'>
                 <div className='container'>
-                    <title className='brand-logo'>Employee Directory</title>
+                    <title className='brand-logo'>Directory</title>
                 </div>
             </div>
         </nav>
